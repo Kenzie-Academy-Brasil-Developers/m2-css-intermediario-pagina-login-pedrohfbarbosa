@@ -1,0 +1,17 @@
+button {
+    height: 50px;
+    padding: 15px;
+    border: none;
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-1);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-minor {
+    border: none;
+    background-color: transparent;
+    color: var(--color-primary);
+    font-size: 20px;       
+}
