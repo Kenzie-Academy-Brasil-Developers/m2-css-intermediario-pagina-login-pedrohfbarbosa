@@ -1,17 +1,37 @@
 button {
-    height: 50px;
-    padding: 15px;
-    border: none;
-    background-color: var(--color-grey-6);
-    color: var(--color-grey-1);
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
+    height: var(--input-button-defaut-height);
+    padding: var(--gap-1);
+    border: var(--border-defaut-button-input);
+    background-color: transparent;    
+    border-radius: var(--radius-1);
+    cursor: pointer;    
+    resize: none;
+    outline: none;
+}
+
+button:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+button:focus {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .btn-minor {
-    border: none;
-    background-color: transparent;
+    border: none;             
+    text-decoration: underline;
+}
+
+.btn-minor:focus {
     color: var(--color-primary);
-    font-size: 20px;       
+}
+
+.btn-minor:hover {
+    color: var(--color-primary);
+}
+
+.btn-modal {
+    border: none;
 }

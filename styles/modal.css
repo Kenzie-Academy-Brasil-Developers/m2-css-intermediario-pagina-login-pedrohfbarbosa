@@ -5,20 +5,21 @@
     position: absolute;
     top: 0;
     left: 0;
+    
     color: var(--color-grey-6);
 }
 
 .modal {
-    width: 500px;
-    max-height: 500px;
+    width: 350px;    
+
     background-color: var(--color-grey-1);
-    border-radius: 10px;
-    padding: 30px;    
-    gap: 50px;
+    border-radius: var(--radius-1);
+    padding: var(--gap-2);    
+    gap: var(--gap-3);
 }
 
 .modal form {
-    gap: 10px;
+    gap: var(--gap-1);
 }
 
 .display-none {

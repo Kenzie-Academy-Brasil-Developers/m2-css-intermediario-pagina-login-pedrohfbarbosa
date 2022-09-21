@@ -1,8 +1,28 @@
 .title-1 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-3);
+    color: var(--color-primary);
     color: var(--color-primary);
 }
+
+.title-2 {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-3);
+    color: var(--color-primary);
+}
+
+.text-1 {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weigth-1);
+    color: var(--color-grey-6);
+}
+
+.text-2 {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weigth-2);
+    color: var(--color-grey-6);
+}
+
 
 .text-center {
     text-align: center;

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/rebound(1).png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/flex.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/logo.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./pages/login/index.css">
+    <title>Login-Rebound Gym</title>
+</head>
+<body>
+    <div class="content-wrapper flex">
+        <aside class="flex flex-col">
+            <div class="logo-wrapper container-minor">
+                <img class="logo" src="./assets/img/rebound-removebg-preview.png" alt="">                
+            </div>  
+            <div class="slogan-wrapper container-minor">
+                <p class="slogan title-1 text-center">Be the change you want to see in the world</p>
+            </div>          
+        </aside>
+        <main class="flex flex-justify-center flex-align-center">
+            <div class="login-wrapper container flex flex-col">
+                <div>
+                    <h2 class="title-1">Olá!</h2>
+                    <p class="text-2">Acesse sua conta para planejar seus próximos treinos...</p>
+                </div>
+                <form class="login-form flex flex-col" action="">
+                    <label class="text-2" for="user">Usuário</label>
+                    <input class="text-1" type="email" placeholder="Digite seu e-mail" id="user">
+                    <label class="text-2" for="password">Senha</label>
+                    <input class="text-1" type="password" placeholder="Digite sua senha" id="password">
+                    <button data-modal-control="password-forgot" class="btn-minor align-self-end text-1">Esqueci minha senha</button>
+                    <button class="text-1" type="submit">Entrar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <div class="modal-wrapper display-none flex-align-center flex-justify-center" id="password-forgot">
+        <div class="modal flex flex-col flex-justify-between">
+            <div class="flex flex-align-center flex-justify-between">
+                <h3 class="title-2">Recupere sua senha!</h3>
+                <button class="text-1 btn-modal" data-modal-control="password-forgot">X</button>
+            </div>
+            <form class="flex flex-col flex-justify-between" action="">
+                <label class="text-2" for="email-forget">E-mail</label>
+                <input class="text-1" type="email" placeholder="Digite seu e-mail" id="email-forget">
+                <button class="text-1" type="submit">Recuperar senha</button>
+            </form>
+        </div>
+    </div>
+    <script src="/scripts/modal.js"></script>
+</body>
+</html>

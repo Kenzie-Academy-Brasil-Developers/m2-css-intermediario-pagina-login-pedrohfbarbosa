@@ -1,32 +1,26 @@
 .content-wrapper aside {
-    width: 45%;
-    height: 100vh;
-    background-color: black;
-    
+    width: 45%;    
+    background-color: var(--color-dark-1);    
 }
 
 .content-wrapper main {
-    width: 55%;
-    height: 100vh;
-    background-color: var(--color-grey-1);
-    
+    width: 55%;    
+    background-color: var(--color-grey-1);    
 }
 
 .slogan {
     position: relative;
-    bottom: 80px;
+    bottom: 250px;
 }
 
 main .login-wrapper{
-    padding: 50px;
-    border-radius: 10px;
-    height: 500px;
-    background-color: black;
-    font-size: 18px;
-    gap: 20px;
+    width: 500px;
+    padding: var(--gap-3);
+    border-radius: var(--radius-1);
+    background-color: var(--color-dark-1);    
+    gap: var(--gap-2);
 }
 
-.login-form {
-    font-size: 20px;
-    gap: 10px;
+.login-form {   
+    gap: var(--gap-1);
 }

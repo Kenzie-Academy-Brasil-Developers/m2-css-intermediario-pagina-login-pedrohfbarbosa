@@ -1,4 +1,5 @@
 const allButtons = document.querySelectorAll("button")
+
 for (let i = 0; i < allButtons.length; i++){
     allButtons[i].addEventListener("click", function(event){
         event.preventDefault()
@@ -14,4 +15,3 @@ for (let i = 0; i < modalButtons.length; i++){
         document.getElementById(modalId).classList.toggle("show-modal")
     })
 }
-

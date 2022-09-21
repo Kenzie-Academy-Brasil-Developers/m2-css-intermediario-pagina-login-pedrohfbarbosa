@@ -1,6 +1,7 @@
 .logo-wrapper {
     width: 100%;
-
+    position: relative;
+    bottom: 100px;
 }
 
 .logo {
